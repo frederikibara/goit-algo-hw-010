@@ -1,8 +1,7 @@
 # Assistant Bot for Address Book Management 
 
-# Update
-Update 0.0.7 :
-  - Added Dockerfile with customizable commands
+# Update 0.0.7 
+   - Added Dockerfile with customizable commands
    - Created and customized a virtual environment with the Poetry library
    - corrected syntax errors in the code
 
