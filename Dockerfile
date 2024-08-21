@@ -7,7 +7,6 @@ COPY . /app/
 
 RUN poetry install --no-root --no-dev
 COPY pyproject.toml poetry.lock* /app/
-# RUN poetry env use python3.12
 
-# ENTRYPOINT ["poetry", "run", "python", "main.py"]
+VOLUME ["/app/data"]
 CMD ["/bin/bash"]

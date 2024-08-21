@@ -29,7 +29,14 @@ Commands:
     - exit or close: Exits the program.
   """
     
-    DATA = 'book.pkl'
+    # DATA = 'book.pkl'
+    
+    # docker 
+    DATA = '/app/data/book.pkl'
+    
+    # docker
+    # save_to_file(address_book, '/app/book.pkl')
+
     book = load_from_file(DATA)
     print(book)
     
