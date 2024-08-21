@@ -46,8 +46,7 @@ class AddressBook(UserDict):
 
         items = []
         for key, record in self.data.items():
-            # items.append(f'{get_emoji(6)} {record.name.value} : {', '.join(p.value for p in record.phones)}')
             items.append(f'{get_emoji(6)} {record.name.value} : {", ".join(p.value for p in record.phones)}')
         # return "\n".join(items)
-        return 0
+        return str(items)
     # f'{get_emoji(7)}{"\n".join(items)}{get_emoji(8)}'

@@ -10,11 +10,10 @@ def main():
 Main contains the basic functionality of the bot assistant application.
 It handles user interactions such as adding, modifying and displaying contacts.
 
-Update:
-   - added interface : IUserInterface
-   - added adapter : ConsoleAdapter implements IUserInterface
-   - fixed method for clear all contacacts from file
-   - program structure extends
+Update 0.0.7:
+   - Added Dockerfile with customizable commands
+   - Created and customized a virtual environment with the Poetry library
+   - corrected syntax errors in the code
 
 Commands:
     - hello : Just a greeting.
