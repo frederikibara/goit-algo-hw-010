@@ -1,13 +1,12 @@
-# Assistant Bot for Address Book Management 
+# Address Book Management 
 
 # Update 0.0.7 
    - Added Dockerfile with customizable commands
    - Created and customized a virtual environment with the Poetry library
-   - corrected syntax errors in the code
 
 # Link for download docker image from docker hub
   https://hub.docker.com/repository/docker/fred99/phonebook/general
-  ![pngwing com (1)](https://github.com/user-attachments/assets/f68f7b0f-ba5e-4f47-b8e9-cbf40b973205)
+  ![146-1469802_logo-logo-docker](https://github.com/user-attachments/assets/4a8070ca-2589-4d74-a2a6-2f1e94616472)
 
 ## Description
 
