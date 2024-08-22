@@ -8,6 +8,16 @@
   https://hub.docker.com/repository/docker/fred99/phonebook/general
   ![146-1469802_logo-logo-docker](https://github.com/user-attachments/assets/4a8070ca-2589-4d74-a2a6-2f1e94616472)
 
+# setup command and run
+ Create docker container : docker build -t <image_name> .
+ Run container : docker run -it <image_name> /bin/bash
+ 
+ Go into container : docker exec -it <image_name> /bin/bash
+    - use for start bot : python main.py
+    
+ docker stop <container ID> : stopping container
+ docker start <container ID> : startup container
+
 ## Description
 
 The assistant-bot provides the following functions:
