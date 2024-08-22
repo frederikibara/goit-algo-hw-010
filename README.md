@@ -7,8 +7,7 @@
 
 # Link for download docker image from docker hub
   https://hub.docker.com/repository/docker/fred99/phonebook/general
-
-This assistant bot is designed to manage your address book. With its help you can add, edit and delete contacts, manage phone numbers and birthdays.
+  ![pngwing com (1)](https://github.com/user-attachments/assets/f68f7b0f-ba5e-4f47-b8e9-cbf40b973205)
 
 ## Description
 
@@ -19,6 +18,7 @@ The assistant-bot provides the following functions:
 - Deleting contacts and clearing the entire address book
 - Searching and displaying contact information
 - Display upcoming birthdays
+
 
 ### Commands
 
